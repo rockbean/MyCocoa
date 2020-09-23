@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95F743F3251B461000BCBD17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F743F2251B461000BCBD17 /* AppDelegate.m */; };
+		95F743F6251B461000BCBD17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F743F5251B461000BCBD17 /* ViewController.m */; };
+		95F743F8251B461100BCBD17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F743F7251B461100BCBD17 /* Assets.xcassets */; };
+		95F743FB251B461100BCBD17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F743F9251B461100BCBD17 /* Main.storyboard */; };
+		95F743FE251B461100BCBD17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F743FD251B461100BCBD17 /* main.m */; };
+		95F74409251B461100BCBD17 /* MyCocoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F74408251B461100BCBD17 /* MyCocoaTests.m */; };
+		95F74414251B461100BCBD17 /* MyCocoaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F74413251B461100BCBD17 /* MyCocoaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95F74405251B461100BCBD17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95F743E6251B461000BCBD17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95F743ED251B461000BCBD17;
+			remoteInfo = MyCocoa;
+		};
+		95F74410251B461100BCBD17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95F743E6251B461000BCBD17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95F743ED251B461000BCBD17;
+			remoteInfo = MyCocoa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95F743EE251B461000BCBD17 /* MyCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F743F1251B461000BCBD17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95F743F2251B461000BCBD17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95F743F4251B461000BCBD17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		95F743F5251B461000BCBD17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		95F743F7251B461100BCBD17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95F743FA251B461100BCBD17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95F743FC251B461100BCBD17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F743FD251B461100BCBD17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95F743FF251B461100BCBD17 /* MyCocoa.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyCocoa.entitlements; sourceTree = "<group>"; };
+		95F74404251B461100BCBD17 /* MyCocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F74408251B461100BCBD17 /* MyCocoaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCocoaTests.m; sourceTree = "<group>"; };
+		95F7440A251B461100BCBD17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F7440F251B461100BCBD17 /* MyCocoaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCocoaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F74413251B461100BCBD17 /* MyCocoaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCocoaUITests.m; sourceTree = "<group>"; };
+		95F74415251B461100BCBD17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95F743EB251B461000BCBD17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F74401251B461100BCBD17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F7440C251B461100BCBD17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95F743E5251B461000BCBD17 = {
+			isa = PBXGroup;
+			children = (
+				95F743F0251B461000BCBD17 /* MyCocoa */,
+				95F74407251B461100BCBD17 /* MyCocoaTests */,
+				95F74412251B461100BCBD17 /* MyCocoaUITests */,
+				95F743EF251B461000BCBD17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95F743EF251B461000BCBD17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95F743EE251B461000BCBD17 /* MyCocoa.app */,
+				95F74404251B461100BCBD17 /* MyCocoaTests.xctest */,
+				95F7440F251B461100BCBD17 /* MyCocoaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95F743F0251B461000BCBD17 /* MyCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				95F743F1251B461000BCBD17 /* AppDelegate.h */,
+				95F743F2251B461000BCBD17 /* AppDelegate.m */,
+				95F743F4251B461000BCBD17 /* ViewController.h */,
+				95F743F5251B461000BCBD17 /* ViewController.m */,
+				95F743F7251B461100BCBD17 /* Assets.xcassets */,
+				95F743F9251B461100BCBD17 /* Main.storyboard */,
+				95F743FC251B461100BCBD17 /* Info.plist */,
+				95F743FD251B461100BCBD17 /* main.m */,
+				95F743FF251B461100BCBD17 /* MyCocoa.entitlements */,
+			);
+			path = MyCocoa;
+			sourceTree = "<group>";
+		};
+		95F74407251B461100BCBD17 /* MyCocoaTests */ = {
+			isa = PBXGroup;
+			children = (
+				95F74408251B461100BCBD17 /* MyCocoaTests.m */,
+				95F7440A251B461100BCBD17 /* Info.plist */,
+			);
+			path = MyCocoaTests;
+			sourceTree = "<group>";
+		};
+		95F74412251B461100BCBD17 /* MyCocoaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95F74413251B461100BCBD17 /* MyCocoaUITests.m */,
+				95F74415251B461100BCBD17 /* Info.plist */,
+			);
+			path = MyCocoaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95F743ED251B461000BCBD17 /* MyCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F74418251B461100BCBD17 /* Build configuration list for PBXNativeTarget "MyCocoa" */;
+			buildPhases = (
+				95F743EA251B461000BCBD17 /* Sources */,
+				95F743EB251B461000BCBD17 /* Frameworks */,
+				95F743EC251B461000BCBD17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCocoa;
+			productName = MyCocoa;
+			productReference = 95F743EE251B461000BCBD17 /* MyCocoa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95F74403251B461100BCBD17 /* MyCocoaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F7441B251B461100BCBD17 /* Build configuration list for PBXNativeTarget "MyCocoaTests" */;
+			buildPhases = (
+				95F74400251B461100BCBD17 /* Sources */,
+				95F74401251B461100BCBD17 /* Frameworks */,
+				95F74402251B461100BCBD17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95F74406251B461100BCBD17 /* PBXTargetDependency */,
+			);
+			name = MyCocoaTests;
+			productName = MyCocoaTests;
+			productReference = 95F74404251B461100BCBD17 /* MyCocoaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95F7440E251B461100BCBD17 /* MyCocoaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F7441E251B461100BCBD17 /* Build configuration list for PBXNativeTarget "MyCocoaUITests" */;
+			buildPhases = (
+				95F7440B251B461100BCBD17 /* Sources */,
+				95F7440C251B461100BCBD17 /* Frameworks */,
+				95F7440D251B461100BCBD17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95F74411251B461100BCBD17 /* PBXTargetDependency */,
+			);
+			name = MyCocoaUITests;
+			productName = MyCocoaUITests;
+			productReference = 95F7440F251B461100BCBD17 /* MyCocoaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95F743E6251B461000BCBD17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = xu;
+				TargetAttributes = {
+					95F743ED251B461000BCBD17 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					95F74403251B461100BCBD17 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 95F743ED251B461000BCBD17;
+					};
+					95F7440E251B461100BCBD17 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 95F743ED251B461000BCBD17;
+					};
+				};
+			};
+			buildConfigurationList = 95F743E9251B461000BCBD17 /* Build configuration list for PBXProject "MyCocoa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95F743E5251B461000BCBD17;
+			productRefGroup = 95F743EF251B461000BCBD17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95F743ED251B461000BCBD17 /* MyCocoa */,
+				95F74403251B461100BCBD17 /* MyCocoaTests */,
+				95F7440E251B461100BCBD17 /* MyCocoaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95F743EC251B461000BCBD17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F743F8251B461100BCBD17 /* Assets.xcassets in Resources */,
+				95F743FB251B461100BCBD17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F74402251B461100BCBD17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F7440D251B461100BCBD17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95F743EA251B461000BCBD17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F743F6251B461000BCBD17 /* ViewController.m in Sources */,
+				95F743FE251B461100BCBD17 /* main.m in Sources */,
+				95F743F3251B461000BCBD17 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F74400251B461100BCBD17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F74409251B461100BCBD17 /* MyCocoaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F7440B251B461100BCBD17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F74414251B461100BCBD17 /* MyCocoaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95F74406251B461100BCBD17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95F743ED251B461000BCBD17 /* MyCocoa */;
+			targetProxy = 95F74405251B461100BCBD17 /* PBXContainerItemProxy */;
+		};
+		95F74411251B461100BCBD17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95F743ED251B461000BCBD17 /* MyCocoa */;
+			targetProxy = 95F74410251B461100BCBD17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95F743F9251B461100BCBD17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95F743FA251B461100BCBD17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95F74416251B461100BCBD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		95F74417251B461100BCBD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		95F74419251B461100BCBD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MyCocoa/MyCocoa.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyCocoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xu.MyCocoa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95F7441A251B461100BCBD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MyCocoa/MyCocoa.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyCocoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xu.MyCocoa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95F7441C251B461100BCBD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xu.MyCocoaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCocoa.app/Contents/MacOS/MyCocoa";
+			};
+			name = Debug;
+		};
+		95F7441D251B461100BCBD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xu.MyCocoaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCocoa.app/Contents/MacOS/MyCocoa";
+			};
+			name = Release;
+		};
+		95F7441F251B461100BCBD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyCocoaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xu.MyCocoaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyCocoa;
+			};
+			name = Debug;
+		};
+		95F74420251B461100BCBD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyCocoaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xu.MyCocoaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyCocoa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95F743E9251B461000BCBD17 /* Build configuration list for PBXProject "MyCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F74416251B461100BCBD17 /* Debug */,
+				95F74417251B461100BCBD17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95F74418251B461100BCBD17 /* Build configuration list for PBXNativeTarget "MyCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F74419251B461100BCBD17 /* Debug */,
+				95F7441A251B461100BCBD17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95F7441B251B461100BCBD17 /* Build configuration list for PBXNativeTarget "MyCocoaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F7441C251B461100BCBD17 /* Debug */,
+				95F7441D251B461100BCBD17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95F7441E251B461100BCBD17 /* Build configuration list for PBXNativeTarget "MyCocoaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F7441F251B461100BCBD17 /* Debug */,
+				95F74420251B461100BCBD17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95F743E6251B461000BCBD17 /* Project object */;
+}
